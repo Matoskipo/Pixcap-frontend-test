@@ -1,0 +1,20 @@
+{
+  "name": "pixcap_frontend_test",
+  "version": "1.0.0",
+  "description": "pixcap_frontend_test with typescript",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
