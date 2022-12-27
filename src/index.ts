@@ -86,13 +86,10 @@ const ceo: Employee={
 }
 
 const app = new EmployeeOrgApp(ceo)
-// const surbodinate =app.findEmployeeParent(ceo.surbodinates,3)
-// console.log('employer',surbodinate)
-// const employee = app.findEmployee(ceo.surbodinates, 3)
-// console.log('employee',employee)
 
 // first argument is surbodinate and second argument is supervisor
 // move surbodinate under supervisor array of surbodinates
-app.move(4,9)
+app.move(5,13)
 app.undo()
 app.redo()
+
